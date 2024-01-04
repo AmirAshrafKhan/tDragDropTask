@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+<h1 align="center" font-weight="bold">Drag and Drop-Task</h1>
+ <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  
+  <a href="https://github.com/AmirAshrafKhan" target="_blank">Author</a>
+</p>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## :dart: About
 
-### `npm start`
+Task Manager: A modern and intuitive todo application with a sleek and user-friendly interface. This app allows you to easily manage your tasks and prioritize them using drag and drop functionality. Organize your todos effortlessly by dragging them between 'Active' and 'Completed' containers. Built with React and powered by the react-beautiful-dnd library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :sparkles: Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+:heavy_check_mark: Drag and Drop: Effortlessly rearrange tasks by dragging and dropping them between the 'Active' and 'Completed' containers
 
-### `npm test`
+:heavy_check_mark: Task Management: Create, edit, and delete tasks to keep track of your daily responsibilities.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:heavy_check_mark: User-friendly Interface: A clean and intuitive interface that makes it easy to manage your todo list.
 
-### `npm run build`
+:heavy_check_mark: Responsive Design: Access your todo app from any device, including desktops, tablets, and mobile phones.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :rocket: Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The following tools were used in this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- TailwindCSS
+- React
+- Typescript
 
-### `npm run eject`
+## :white_check_mark: Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :checkered_flag: Starting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clone this project
+$
+git init
+# Access
+$ cd taskmanager
+# Install dependencies
+$ yarn or npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run the project
+$ yarn dev --host or npm run dev
+```

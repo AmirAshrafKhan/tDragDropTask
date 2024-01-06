@@ -40,3 +40,4 @@ const InputField: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
 };
 
 export default InputField;
+

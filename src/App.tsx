@@ -53,7 +53,7 @@ function App() {
   return (
     <>
       <div className="h-screen w-screen flex flex-col bg-gray-400 text-white items-center gap-7">
-        <h1 className="text-4xl font-bold text-center mt-4 font-custom text-teal-950 sm:mt-8">Drag & Drop Tasks</h1>
+        <h1 className="text-4xl font-bold text-center mt-4 font-custom text-teal-950 sm:mt-8">Drag & Drop Task Manager </h1>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
         <DragDropContext onDragEnd={onDragEnd}>
           <TodoList
